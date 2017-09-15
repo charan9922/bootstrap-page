@@ -1,0 +1,184 @@
+body{
+	font-family: 'Orbitron', sans-serif;
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+nav{
+	font-family: 'Orbitron', sans-serif;
+	opacity:0.8;
+	transition:0.7s;
+}
+nav:hover{
+	opacity:1;
+}
+.parallax {
+    /* The image used */
+    background-image: url("images/NIT-Durgapur.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.5;
+}
+.carousel-inner{
+	margin:0px;
+	padding:0px;
+}
+#para{
+	/*font-family: 'roboto';*/
+	text-align: center;
+	background-color:#3C6478;
+	color:white;
+}
+#para p{
+	font-size: 20px;
+	font-weight: lighter;
+}
+.parallax1 {
+    /* The image used */
+    background-image: url("images/f1.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+.events h1{
+	/*font-family: 'Sedgwick Ave Display';*/
+	text-align: center;
+	color:#e60000;
+	font-weight: bolder;
+}
+.events{
+	background-image: url("images/bg1.jfif");
+	opacity: 0.9;
+}
+#events img {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+#events img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+.parallax2 {
+    /* The image used */
+    background-image: url("images/gear.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+.team h1{
+	font-family: 'Sedgwick Ave Display';
+	text-align: center;
+	color:#ff8080;
+	font-weight: bolder;
+}
+.team{
+	background-image: url("images/bgp1.jpg");
+	opacity: 0.9;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image-responsive {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+#footer{
+	background-color:#000000;
+	color:#ffffff;
+	font-family: 'Orbitron', sans-serif;
+}
+span{
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+#credit{
+	background-color:#000000;
+	color:#ffffff;
+}
+.slideanim {visibility:hidden;}
+.slide {
+
+    animation-name: slide;
+    -webkit-animation-name: slide;
+
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+
+    visibility: visible;
+}
+
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
